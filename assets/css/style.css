@@ -1,0 +1,94 @@
+@font-face {
+    font-family: CMR;
+    src: url(../fonts/cmuserif_roman_macroman/cmunrm-webfont.woff);
+  }
+  @font-face {
+    font-family: CMB;
+    src: url(../fonts/cmuserif_bold_macroman/cmunbx-webfont.woff);
+  }
+
+
+h1,h2,h3{
+    font-family: CMB;
+    font-weight: bold;
+    text-align: left;
+    text-transform: capitalize;
+}
+p,li{
+    font-family: CMR;
+    font-size: 1.1rem;
+}
+.language-css, code{
+    font-family: CMB;
+    margin:15px 5px;
+}
+.language-plaintext{
+    color: #111111;
+}
+.nt{
+    color: #FF4136;
+}
+.p{
+    color: #111;
+}
+.nl, .m{
+    color: #001f3f;
+}
+a{
+    color: #85144b;
+}
+.highlighter-rouge{
+    background-color: #DDDDDD;
+    padding:2px;
+    border-radius: 2px;
+}
+.LatexTitle{
+    font-family: CMR;
+    font-size: 2.5rem;
+    padding-top: 10vh;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.LatexName{
+    font-family: CMR;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.LatexAbstract{
+    font-family: CMB;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.LatexAbstractText{
+    margin-top:10px;
+    font-family: CMR;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.Margins{
+    margin:auto;
+    width: 80%;
+}
+
+.AbstractMargins{
+    width:100%;
+    padding-bottom: 15px;
+}
+
+.footerSize{
+    height: 30vh;
+    width: 100%;
+}
+
+@media only screen and (min-width:280px) and (max-width: 480px){
+    html{
+        font-size: 12px;
+    }
+}

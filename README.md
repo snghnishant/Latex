@@ -1,9 +1,9 @@
 # Running locally
 
 1. Clone  
-```git clone https://github.com/snghnishant/responsive-web-notes```  
+```git clone https://github.com/snghnishant/Latex```  
 2. Change directory  
-```cd responsive-web-notes```  
+```cd Latex```  
 3. Updating bundle to resolve dependency errors
 ```bundle update```
 > Before running `bundle update` command make sure your system meets the [Jekyll Installation Requirements](https://jekyllrb.com/docs/installation/).
